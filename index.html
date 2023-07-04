@@ -465,12 +465,21 @@
         </ul>
       </div>
       <div class="subscribe-footer">
-        <p class="subscribe-text">Subscribe</p>
+        <!-- <p class="subscribe-text">Subscribe</p> -->
         <form>
+<label class="subscribe-text">Subscribe
+  
           <input class="form-email" type="email" name="email" placeholder="E-mail">
+        </label>
         </form>
-
       </div>
+      <div class="logo-button">
+<button class="button-subscribe" type="submit">Subscribe</button>
+<svg class="icon-button" width="24px" height="24px">
+  <use href="./"></use>
+</svg>
+      </div>
+</div>
     </div>
         
     </footer>
@@ -485,7 +494,28 @@
             </use>
           </svg>
         </button>
-      </div>
+      
+      <form class="form-modal-window">
+        <legend class="header-modal-window">Leave your contacts and we will call you back</legend>
+        <label class="label-modal-window">
+          Name
+          <input class="input-modal-window" type="text" name="username"/>
+        </label>
+        <label class="label-modal-window">
+          Phone
+        <input class="input-modal-window" type="tel" name="contact_tel"/>
+      </label> 
+      <label class="label-modal-window">
+        Email
+        <input class="input-modal-window" type="email" name="email"/>
+      </label>
+      <label class="label-modal-window">
+        Comment
+        <textarea class="comment-modal-window" name="feedback" rows="5" placeholder="Text input"></textarea>
+      </label>
+
+      </form>
+    </div>
     </div>
   <script src="./js/modal.js"></script>
   </body>
