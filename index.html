@@ -468,6 +468,7 @@
   <!-- MODAL WINDOW -->
   <div data-modal class="is-hidden">
     <div class="modal-window">
+      <p class="header-modal-window">Leave your contacts and we will call you back</p>
       <button data-modal-close type="button" class="modal-button">
         <svg width="8" height="8" class="modal-button-icon">
           <use href="./images/icons.svg#icon-closeBtn">
@@ -477,11 +478,12 @@
       </button>
 
       <form class="form-modal-window">
-        <legend class="header-modal-window">Leave your contacts and we will call you back</legend>
+        <div class="modal-window-form">
+        
         <label class="label-modal-window">Name</label>
         <div class="modal-field-wrap">
-          <input class="input-modal-window" type="text" name="username" />
-          <svg width="18" height="18" class="modal-icons">
+          <input class="input-modal-window"  id="user-name" type="text" name="user-name" />
+          <svg width="18" height="24" class="modal-icons">
             <use href="./images/icons.svg#user">
             </use>
           </svg>
@@ -489,7 +491,7 @@
         <label class="label-modal-window">Phone</label>
         <div class="modal-field-wrap">
           <input class="input-modal-window" type="tel" name="contact_tel" />
-          <svg width="18" height="18" class="modal-icons">
+          <svg width="18" height="24" class="modal-icons">
             <use href="./images/icons.svg#phone">
             </use>
           </svg>
@@ -497,7 +499,7 @@
         <label class="label-modal-window">Email</label>
         <div class="modal-field-wrap">
           <input class="input-modal-window" type="email" name="email" />
-          <svg width="18" height="18" class="modal-icons">
+          <svg width="18" height="24" class="modal-icons">
             <use href="./images/icons.svg#email">
             </use>
           </svg>
@@ -515,6 +517,7 @@
             </a>
           </p>
         </div>
+      </div>
       </form>
     </div>
   </div>
