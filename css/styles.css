@@ -658,13 +658,21 @@ body {
 /* .subscribe-footer{
     margin-left: 828px;
 } */
-.subscribe-wrap {
+
+/* comment */
+
+
+/* .subscribe-wrap {
   display: flex;
   gap: 24px;
-}
-/* .subscribe-field-wrap {
-    display: flex;
 } */
+
+
+/* add flex */
+.form-footer {
+    display: flex;
+    gap: 24px;
+} 
 .subscribe-text {
   font-size: 16px;
   font-family: Roboto;
