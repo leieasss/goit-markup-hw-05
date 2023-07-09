@@ -951,7 +951,7 @@ label.label-modal-window {
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   
 }
-.checkbox-span.span-checkbox {
+.checkbox-span {
   display: inline-flex;
 }
 
