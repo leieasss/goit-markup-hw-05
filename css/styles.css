@@ -967,12 +967,15 @@ label.label-modal-window {
   color:#8e8f99;
 
 }
+.textatea-modal {
+  margin-bottom: 16px;
+}
 
 .modal-check__box {
     display: flex;
     font-family: 'Roboto';
     gap: 8px;
-    margin-top: 16px;
+
     margin-bottom: 24px;
     font-size: 12px;
     line-height: 1.17;
