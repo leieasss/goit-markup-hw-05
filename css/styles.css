@@ -712,12 +712,12 @@ body {
   justify-content: center;
   align-items: center;
 
-
+  cursor: pointer;
   /* maybe */
 
-
   
-  gap: 16px;
+  
+  /* gap: 16px; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -741,6 +741,7 @@ body {
 }
 .icon-button{
     fill: #FFFFFF;
+    margin-left: 16px; 
 }
 
 /* modal */
@@ -794,7 +795,7 @@ div[data-modal] {
 }
 
 
-.label-modal-window{
+.label-modal-window {
 font-size: 12px; 
 line-height: 1.17;
 letter-spacing: 0.04em;
