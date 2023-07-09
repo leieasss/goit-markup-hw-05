@@ -446,17 +446,17 @@
               <input class="form-email" type="email" name="email" placeholder="E-mail">
             <!-- </div> -->
             <!-- <div class="logo-button"> -->
-              <button class="button-subscribe" type="submit">
-                <label class="button-text">Subscribe
-                <svg class="icon-button" width="24px" height="24px">
-                  <use href="./images/icons.svg#telegram"></use>
-                </svg>
-              </label> 
-              </button>
+             
               
             <!-- </div> -->
           <!-- </div> -->
         </label>
+        <button class="button-subscribe" type="submit">
+          Subscribe
+          <svg class="icon-button" width="24px" height="24px">
+            <use href="./images/icons.svg#telegram"></use>
+          </svg>
+        </button>
         </form>
       </div>
       
@@ -468,19 +468,20 @@
   <!-- MODAL WINDOW -->
   <div data-modal class="is-hidden">
     <div class="modal-window">
-      <p class="header-modal-window">Leave your contacts and we will call you back</p>
+      
       <button data-modal-close type="button" class="modal-button">
+        
         <svg width="8" height="8" class="modal-button-icon">
           <use href="./images/icons.svg#icon-closeBtn">
 
           </use>
         </svg>
       </button>
-
+      <p class="header-modal-window">Leave your contacts and we will call you back</p>
       <form class="form-modal-window">
         <div class="modal-window-form">
         
-        <label class="label-modal-window">Name</label>
+        <label class="label-modal-window" for="user-name">Name</label>
         <div class="modal-field-wrap">
           <input class="input-modal-window"  id="user-name" type="text" name="user-name" />
           <svg width="18" height="24" class="modal-icons">
