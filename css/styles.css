@@ -997,7 +997,7 @@ label.label-modal-window {
 }
 
 .modal-check__box {
-    display: flex;
+    /* display: flex; */
     font-family: 'Roboto';
     gap: 8px;
 
