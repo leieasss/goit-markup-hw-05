@@ -923,7 +923,7 @@ label.label-modal-window {
 
 
 
- .privacy-wrap {
+ .politic-modal {
   margin-bottom: 24px;
 }
 .checkbox {
@@ -976,7 +976,7 @@ label.label-modal-window {
     font-family: 'Roboto';
     gap: 8px;
 
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
