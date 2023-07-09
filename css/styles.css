@@ -943,6 +943,9 @@ span.checkbox-span {
   justify-content: center;
   fill: transparent;
 }
+span.checkbox-span.span-checkbox {
+  display: inline-flex;
+}
 
 .checkbox-text {
   width: 338px;
