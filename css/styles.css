@@ -611,9 +611,9 @@ body {
   align-items: baseline;
   /* margin-left: 156px; */
 }
-.social_container {
+/* .social_container {
   margin-right: 120px;
-}
+} */
 .footer-sub {
   color: var(--primary-four-text);
   margin-bottom: 16px;
@@ -627,7 +627,7 @@ body {
   padding: 0px;
   gap: 16px;
   max-width: 208px;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .social-link_footer {
   width: 40px;
@@ -655,23 +655,13 @@ body {
   color: #f4f4fd;
 }
 
-/* .subscribe-footer{
-    margin-left: 828px;
-} */
-
-/* comment */
-
-
-/* .subscribe-wrap {
-  display: flex;
-  gap: 24px;
-} */
-
-
-/* add flex */
+.subscribe-footer{
+  margin-left: auto;
+}
 .form-footer {
     display: flex;
     gap: 24px;
+    /* margin-left: auto; */
 } 
 .subscribe-text {
   font-size: 16px;
@@ -713,8 +703,7 @@ body {
   align-items: center;
 
   cursor: pointer;
-  /* maybe */
-
+  
   
   
   /* gap: 16px; */
@@ -878,7 +867,7 @@ label.label-modal-window {
 }
 .modal-field-wrap {
   position: relative;
-  margin-bottom: 26px;
+  margin-bottom: 8px;
 }
 .input-modal-window {
   height: 40px;
@@ -889,7 +878,7 @@ label.label-modal-window {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  padding-bottom: 11px;
+  
   /* width: 360px;
   height: 40px;
   flex-shrink: 0; */
@@ -943,7 +932,7 @@ label.label-modal-window {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* display: inline-flex;  */
+  display: inline-flex; 
   align-items: center;
   justify-content: center;
   fill: transparent; 
@@ -982,6 +971,8 @@ label.label-modal-window {
   fill: #F4F4FD;
   border-color: #404BBF;
 }
+
+
 .label-privacy-wrap{
   font-size: 12px; 
   line-height: 1.17; 
@@ -1053,7 +1044,7 @@ label.label-modal-window {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: none;
+  /* fill: none; */
   stroke: #2e2f42;
 }
 
@@ -1130,6 +1121,7 @@ label.label-modal-window {
 .ifp__btn:focus {
   border: 1px solid transparent;
 }
+
 
 /* .text-footer__portfolio {
      margin-right: 120px; 
